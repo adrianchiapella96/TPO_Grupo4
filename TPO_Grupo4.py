@@ -10,6 +10,8 @@ def crear_espectaculo(espectaculos, nombre, fecha, hora, capacidad):
         "asientos": [[0 for _ in range(capacidad)] for _ in range(capacidad)]  # Matriz de asientos (0 = libre, 1 = ocupado)
     }
     espectaculos.append(espectaculo)
+    print(f"Espectáculo '{nombre}' creado con éxito.")
+
 
 # Función para mostrar todos los espectáculos disponibles
 def mostrar_espectaculos(espectaculos):
